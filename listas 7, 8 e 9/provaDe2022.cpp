@@ -33,7 +33,7 @@ main()
         {
             ap << "\nNOME: \t" << a.nome << "\nNOTA 1: \t" << a.n1 << "\nNOTA 2: \t" << a.n2 << "\nMEDIA: \t" << a.media << "\nFREQUENCIA: \t" << a.freq << "\n";
         }
-        if (a.freq >= 75 && a.media < 7 || a.freq >= 75 && a.media >= 3)
+        if (a.freq >= 75 && (a.media < 7 && a.media >= 3))
         {
             rec << "\nNOME: \t" << a.nome << "\nNOTA 1: \t" << a.n1 << "\nNOTA 2: \t" << a.n2 << "\nMEDIA: \t" << a.media << "\nFREQUENCIA: \t" << a.freq << "\n";
         }
